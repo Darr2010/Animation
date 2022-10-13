@@ -1,0 +1,136 @@
+@keyframes name2{
+	0%{
+		font-weight: bold;
+	}
+	50%{
+		font-style: italic;
+	}
+	100%{
+		text-decoration: underline;
+	}
+}
+#name2{
+	animation-name: name2;
+	animation-duration: 13s;
+	animation-iteration-count: 1;
+	animation-delay: 2s;
+	animation-timing-function: ease-out;
+}
+@keyframes name{
+	0%{
+		color: red;
+		font-size: 12pt;
+	}
+	25%{
+		color: orange;
+		font-size: 13pt;
+	}
+	50%{
+		color: yellow;
+		font-size: 14pt;
+	}
+	75%{
+		color: green;
+		font-size: 15pt;
+	}
+	100%{
+		color: blue;
+		font-size: 16pt;
+	}
+}
+#name{
+	animation-name: name;
+	animation-iteration-count: 2;
+	animation-duration: 6s;
+}
+#friendname{
+	animation: name 6s ease-out 0s 2 reverse;
+}
+@keyframes group{
+	0%{
+		border: 1px solid orange;
+	}
+	50%{
+		border: 1px dashed green;
+	}
+	100%{
+		border: 1px dotted red;
+	}
+}
+#my_group_name{
+	display: block;
+	animation-name: group;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+}
+@keyframes vpu21{
+	0%{
+		color: red;
+		transform: rotate(360deg);
+		transform-origin: 0% 100%;
+	}
+	100%{
+		color: purple;
+	}
+}
+#vpu21_if{
+	display: block;
+	animation-name: vpu21;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}	
+@keyframes ukr{
+	0%{
+		color: blue;
+		transform: rotate(180deg);
+		transform-origin: 100px 100px;
+		
+	}
+	100%{
+		color: yellow; 
+	}
+}
+#u{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 1s;
+}
+#k{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 1.5s;
+}
+#r{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 2s;
+}
+#a{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 2.5s;
+}
+#i{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 3s;
+}
+#n{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 3.5s;
+}
+#e{
+	display: inline;
+	animation-name: ukr;
+	animation-duration: 5s;
+	animation-delay: 4s;
+}
+
+
